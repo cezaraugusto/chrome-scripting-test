@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "content",
+  "description": "An Extension.js template using web technologies. This template includes a content script.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Click me!"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "16": "images/icons/icon_16.png",
+    "48": "images/icons/icon_48.png"
+  }
+}

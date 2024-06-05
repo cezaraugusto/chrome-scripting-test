@@ -1,0 +1,23 @@
+.content_script-title {
+  font-size: 2.35em;
+  color: #333;
+  line-height: 1.1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-weight: 700;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+}
+
+.content_script-area {
+  position: fixed;
+  top: 50%;
+  right: 80px;
+  width: 400px;
+  height: 70%;
+  background-color: rgb(250, 8, 8);
+  z-index: 1000;
+  transform: translateY(-50%);
+}
